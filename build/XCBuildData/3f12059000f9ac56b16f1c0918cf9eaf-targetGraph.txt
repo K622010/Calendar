@@ -1,0 +1,39 @@
+Target dependency graph (11 targets)
+CalculateCalendarLogic in Pods, no dependencies
+ColorSlider in Pods, no dependencies
+FSCalendar in Pods, no dependencies
+MBCircularProgressBar-MBCircularProgressBar in Pods, no dependencies
+MBCircularProgressBar in Pods, depends on:
+MBCircularProgressBar-MBCircularProgressBar in Pods (explicit)
+Pods-Calendar in Pods, depends on:
+CalculateCalendarLogic in Pods (explicit)
+ColorSlider in Pods (explicit)
+FSCalendar in Pods (explicit)
+MBCircularProgressBar in Pods (explicit)
+Calendar in Calendar, depends on:
+Pods-Calendar in Pods (implicit dependency via file 'Pods_Calendar.framework' in build phase 'Link Binary')
+CalculateCalendarLogic in Pods (implicit dependency via options '-framework CalculateCalendarLogic' in build setting 'OTHER_LDFLAGS')
+ColorSlider in Pods (implicit dependency via options '-framework ColorSlider' in build setting 'OTHER_LDFLAGS')
+FSCalendar in Pods (implicit dependency via options '-framework FSCalendar' in build setting 'OTHER_LDFLAGS')
+MBCircularProgressBar in Pods (implicit dependency via options '-framework MBCircularProgressBar' in build setting 'OTHER_LDFLAGS')
+Pods-CalendarTests in Pods, depends on:
+Pods-Calendar in Pods (explicit)
+CalendarTests in Calendar, depends on:
+Calendar in Calendar (explicit)
+Pods-CalendarTests in Pods (implicit dependency via file 'Pods_CalendarTests.framework' in build phase 'Link Binary')
+CalculateCalendarLogic in Pods (implicit dependency via options '-framework CalculateCalendarLogic' in build setting 'OTHER_LDFLAGS')
+ColorSlider in Pods (implicit dependency via options '-framework ColorSlider' in build setting 'OTHER_LDFLAGS')
+FSCalendar in Pods (implicit dependency via options '-framework FSCalendar' in build setting 'OTHER_LDFLAGS')
+MBCircularProgressBar in Pods (implicit dependency via options '-framework MBCircularProgressBar' in build setting 'OTHER_LDFLAGS')
+Pods-Calendar-CalendarUITests in Pods, depends on:
+CalculateCalendarLogic in Pods (explicit)
+ColorSlider in Pods (explicit)
+FSCalendar in Pods (explicit)
+MBCircularProgressBar in Pods (explicit)
+CalendarUITests in Calendar, depends on:
+Calendar in Calendar (explicit)
+Pods-Calendar-CalendarUITests in Pods (implicit dependency via file 'Pods_Calendar_CalendarUITests.framework' in build phase 'Link Binary')
+CalculateCalendarLogic in Pods (implicit dependency via options '-framework CalculateCalendarLogic' in build setting 'OTHER_LDFLAGS')
+ColorSlider in Pods (implicit dependency via options '-framework ColorSlider' in build setting 'OTHER_LDFLAGS')
+FSCalendar in Pods (implicit dependency via options '-framework FSCalendar' in build setting 'OTHER_LDFLAGS')
+MBCircularProgressBar in Pods (implicit dependency via options '-framework MBCircularProgressBar' in build setting 'OTHER_LDFLAGS')

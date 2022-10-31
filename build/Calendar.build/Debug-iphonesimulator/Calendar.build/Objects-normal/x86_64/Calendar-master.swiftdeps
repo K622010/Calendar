@@ -1,0 +1,13 @@
+version: "Apple Swift version 5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)"
+options: "73a3f6ec4a122a3c230666d3f27ac45ef72e986505cea7128004db5d623ecda4"
+build_start_time: [1666965420, 839557170]
+build_end_time: [1666965427, 621932029]
+inputs:
+  "/Users/egoshi/Desktop/Desktop/ios/Calendar/Calendar/ButtonView.swift": [1666964097, 236519813]
+  "/Users/egoshi/Desktop/Desktop/ios/Calendar/Calendar/CalendarApp.swift": [1666793413, 218474864]
+  "/Users/egoshi/Desktop/Desktop/ios/Calendar/Calendar/ContentView.swift": [1666962245, 99043607]
+  "/Users/egoshi/Desktop/Desktop/ios/Calendar/Calendar/CoreData/Persistence.swift": [1666944029, 122648715]
+  "/Users/egoshi/Desktop/Desktop/ios/Calendar/Calendar/EditClassInformationView.swift": [1666952348, 325438499]
+  "/Users/egoshi/Desktop/Desktop/ios/Calendar/Calendar/ParameterView.swift": [1666947111, 394860506]
+  "/Users/egoshi/Desktop/Desktop/ios/Calendar/ClassIndex+CoreDataClass.swift": [1666616271, 129981517]
+  "/Users/egoshi/Desktop/Desktop/ios/Calendar/ClassIndex+CoreDataProperties.swift": [1666944029, 82573652]

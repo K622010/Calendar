@@ -1,0 +1,11 @@
+framework module CalculateCalendarLogic {
+  umbrella header "CalculateCalendarLogic-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module CalculateCalendarLogic.Swift {
+  header "CalculateCalendarLogic-Swift.h"
+  requires objc
+}

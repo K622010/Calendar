@@ -1,0 +1,14 @@
+{
+  'version': 0,
+  'use-external-names': 'false',
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/egoshi/Desktop/Desktop/ios/Calendar/build/Debug-iphonesimulator/ColorSlider/ColorSlider.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/egoshi/Desktop/Desktop/ios/Calendar/build/Pods.build/Debug-iphonesimulator/ColorSlider.build/unextended-module.modulemap",
+    }]
+  }]
+}

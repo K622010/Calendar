@@ -1,0 +1,12 @@
+version: "Apple Swift version 5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)"
+options: "4ea5cb421071b243433e04fc0e41a8643d42a7ea8a681f97b049dbc486558fa1"
+build_start_time: [1666965419, 598705053]
+build_end_time: [1666965420, 796913146]
+inputs:
+  "/Users/egoshi/Desktop/Desktop/ios/Calendar/Pods/ColorSlider/Sources/ColorSlider.swift": [1664450636, 0]
+  "/Users/egoshi/Desktop/Desktop/ios/Calendar/Pods/ColorSlider/Sources/DefaultPreviewView.swift": [1664450636, 0]
+  "/Users/egoshi/Desktop/Desktop/ios/Calendar/Pods/ColorSlider/Sources/GradientView.swift": [1664450636, 0]
+  "/Users/egoshi/Desktop/Desktop/ios/Calendar/Pods/ColorSlider/Sources/Internal/ColorSliderExtensions.swift": [1664450636, 0]
+  "/Users/egoshi/Desktop/Desktop/ios/Calendar/Pods/ColorSlider/Sources/Internal/Gradient.swift": [1664450636, 0]
+  "/Users/egoshi/Desktop/Desktop/ios/Calendar/Pods/ColorSlider/Sources/Internal/HSBColor.swift": [1664450636, 0]
+  "/Users/egoshi/Desktop/Desktop/ios/Calendar/Pods/ColorSlider/Sources/PreviewView.swift": [1664450636, 0]

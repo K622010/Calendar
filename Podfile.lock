@@ -1,0 +1,28 @@
+PODS:
+  - CalculateCalendarLogic (0.5.0)
+  - ColorSlider (4.4)
+  - FSCalendar (2.8.4)
+  - MBCircularProgressBar (0.3.5)
+
+DEPENDENCIES:
+  - CalculateCalendarLogic
+  - ColorSlider
+  - FSCalendar
+  - MBCircularProgressBar
+
+SPEC REPOS:
+  trunk:
+    - CalculateCalendarLogic
+    - ColorSlider
+    - FSCalendar
+    - MBCircularProgressBar
+
+SPEC CHECKSUMS:
+  CalculateCalendarLogic: d14189787cd47766e64281b2686608afea07ae4d
+  ColorSlider: 9a888e65b871fa1e6a26fadebf4931c949935681
+  FSCalendar: 2d1d0d9398f12d439f55c1fe0f01525b151b8260
+  MBCircularProgressBar: 0b795b722a5eb5b0923822f90474e2576a1a7855
+
+PODFILE CHECKSUM: cc18e47c9999b5efd3009b786531f7eb2d475c53
+
+COCOAPODS: 1.11.3

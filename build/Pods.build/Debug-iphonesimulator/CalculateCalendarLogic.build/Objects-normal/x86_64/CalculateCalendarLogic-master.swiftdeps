@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)"
+options: "f39caad0c0748cb5463f54a58625482e9c042d94f60b1980b2988d8338fa8137"
+build_start_time: [1666965419, 596376895]
+build_end_time: [1666965420, 563506126]
+inputs:
+  "/Users/egoshi/Desktop/Desktop/ios/Calendar/Pods/CalculateCalendarLogic/CalculateCalendarLogic/CalculateCalendarLogic.swift": [1662874845, 0]

@@ -1,0 +1,32 @@
+{
+  "source": "/Users/egoshi/Desktop/Desktop/ios/Calendar/Calendar/ParameterView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Subject"
+      },
+      {
+        "comment": "",
+        "key": "Place"
+      },
+      {
+        "comment": "",
+        "key": "School hours"
+      },
+      {
+        "comment": "",
+        "key": "Color"
+      },
+      {
+        "comment": "",
+        "key": "~"
+      },
+      {
+        "comment": "",
+        "key": "Memo"
+      }
+    ]
+  },
+  "version": 1
+}

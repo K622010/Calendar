@@ -1,0 +1,94 @@
+{
+  "_buildCommand2" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : false,
+    "targets" : null
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "3c45bed5af84ac06470076bc542ac840363634dab1181c5cd67583cccd062c77"
+    },
+    {
+      "guid" : "3c45bed5af84ac06470076bc542ac84088e3fbf190f10db9c053bd356ec6afa4"
+    },
+    {
+      "guid" : "3c45bed5af84ac06470076bc542ac8400fdb3ec9a4369173637ebefafd2603bd"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd422577fab5326525e7f4d56b10612babaf"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42f9e41d56b6c46b3b275e7cee801100cc"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42169a3f24a830b32207daeec386ecf383"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd426cf5e137d8ba851678eab2b95d59c8c2"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42e7d0aeb4b84ba468dcc93d976ef2b322"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42e44b38f107ee1d2e97f4c74232523e8c"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42b2362223984b98c5975563e1bda581a8"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd4235b13a47011a9e82cc7affaf9c708b96"
+    }
+  ],
+  "containerPath" : "/Users/egoshi/Desktop/Desktop/ios/Calendar/Calendar.xcworkspace",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator16.0",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "",
+      "buildProductsPath" : "",
+      "derivedDataPath" : "/Users/egoshi/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/egoshi/Library/Developer/Xcode/DerivedData/Calendar-elwgdeaveewecxcbocdtkrixpfkr/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/egoshi/Library/Developer/Xcode/DerivedData/Calendar-elwgdeaveewecxcbocdtkrixpfkr/Index.noindex/PrecompiledHeaders",
+      "pchPath" : ""
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ASSETCATALOG_FILTER_FOR_DEVICE_MODEL" : "iPhone14,7",
+          "ASSETCATALOG_FILTER_FOR_DEVICE_OS_VERSION" : "16.0",
+          "ASSETCATALOG_FILTER_FOR_THINNING_DEVICE_CONFIGURATION" : "iPhone14,7",
+          "BUILD_ACTIVE_RESOURCES_ONLY" : "YES",
+          "ENABLE_PREVIEWS" : "NO",
+          "TARGET_DEVICE_IDENTIFIER" : "5359BA57-28CA-43EC-953A-3E2F4E11B5C7",
+          "TARGET_DEVICE_MODEL" : "iPhone14,7",
+          "TARGET_DEVICE_OS_VERSION" : "16.0",
+          "TARGET_DEVICE_PLATFORM_NAME" : "iphonesimulator"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : true,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}
