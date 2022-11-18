@@ -105,6 +105,8 @@
 		955ABAF229041F44004F58BA /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
+				9562C4E42906C34F00FD0DBC /* ClassIndex+CoreDataClass.swift */,
+				9562C4E52906C34F00FD0DBC /* ClassIndex+CoreDataProperties.swift */,
 				955ABAF829041FC1004F58BA /* Calendar.xcdatamodeld */,
 				95FEB4002904218B009DD631 /* Persistence.swift */,
 			);
@@ -114,8 +116,6 @@
 		95F0608F287F001C008B4FBF = {
 			isa = PBXGroup;
 			children = (
-				9562C4E42906C34F00FD0DBC /* ClassIndex+CoreDataClass.swift */,
-				9562C4E52906C34F00FD0DBC /* ClassIndex+CoreDataProperties.swift */,
 				95F0609A287F001C008B4FBF /* Calendar */,
 				95F060AB287F001D008B4FBF /* CalendarTests */,
 				95F060B5287F001D008B4FBF /* CalendarUITests */,
