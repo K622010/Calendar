@@ -150,8 +150,7 @@ struct ColorPickerView: UIViewRepresentable {
     }
 
     func updateUIView(_ uiView: ColorPicker, context: Context) {
-//        classColor = ColorPicker().classColorPicked
-//        print(classColor)
+        
     }
     
     func makeCoordinator() -> Coordinator {
@@ -161,7 +160,6 @@ struct ColorPickerView: UIViewRepresentable {
     class Coordinator: NSObject, ColorPickerViewDelegate {
         @ObservedObject var saveClassIndex: SaveClassIndex
         @Binding var classColor: UIColor
-        //var parent: ColorPickerView
 
         init(classColor: Binding<UIColor>, saveClassIndex: SaveClassIndex) {
             _classColor = classColor
@@ -210,29 +208,3 @@ class ColorPicker: UIView {
         delegate?.receiveColor(classColor: classColorPicked)
     }
 }
-    
-    
-
-//struct DatePickerView: View {
-//    Text(dateToHour(date: schoolHoursStart))
-//                                    .background(Color.TextBackGroundColor)
-//                                    .frame(width: 100, height: 30)
-//                                HStack {
-//                                    Spacer()
-//                                    Button(action: {
-//                                        self.isStartEdit = true
-//                                    }) {
-//                                        if isStartEdit {
-//                                            DatePicker(dateToHour(date: schoolHoursStart), selection: $schoolHoursStart, displayedComponents: .hourAndMinute)
-//                                                .labelsHidden()
-//                                        } else {
-//                                            Image(systemName: "chevron.down")
-//                                                .resizable()
-//                                                .frame(width: 9, height: 6)
-//                                                .foregroundColor(Color.gray)
-//                                        }
-//                                    }
-//                                    Spacer().frame(width: 10)
-//                                }
-//}
-

@@ -22,7 +22,6 @@ struct CalendarTestView: UIViewRepresentable {
         fsCalendar.appearance.selectionColor = .systemCyan
         fsCalendar.appearance.todayColor = .systemOrange
         fsCalendar.appearance.titleWeekendColor = .red
-//        fsCalendar.appearance.
         
         return fsCalendar
     }
@@ -79,9 +78,8 @@ struct ClassButtonView: View {
             }
             LazyVGrid(columns: Array(repeating: GridItem(), count: 2)) { // カラム数の指定
                 ForEach(fetchedClassList) { classIndex in
-                    if calendar.component(.weekday, from: selectedDate) == calendar.component(.weekday, from: classIndex.date!) {
-                        ButtonView(attendCounter: $attendCounter, classIndex: classIndex, isClassDelete: $isClassDelete)
-                    }
+                    ButtonView(attendCounter: $attendCounter, classIndex: classIndex, isClassDelete: $isClassDelete)
+                    
                 }
             }
         }
@@ -90,7 +88,6 @@ struct ClassButtonView: View {
 
 
 struct CalendarView: View {
-//    let persistenceController = PersistenceController.shared
     @Environment(\.managedObjectContext) private var viewContext
     @State var selectedDate = Date()
     @State var attendCounter: Dictionary<String, Int> = ["Attend": 0, "Absent": 0, "Late": 0]
@@ -98,14 +95,8 @@ struct CalendarView: View {
     @State var isClassDelete = false
     @State var classIndex = ClassIndex()
     @ObservedObject var saveClassIndex = SaveClassIndex()
-//    @ObservedObject var saveClassIndex: SaveClassIndex
-    
     @State var classColor: UIColor = UIColor.systemBlue
     let editMode: String = "new"
-    
-//    init() {
-//        self.saveClassIndex = SaveClassIndex(date: self.selectedDate)
-//    }
     
     var body: some View {
         HStack {
@@ -148,23 +139,13 @@ struct CalendarView: View {
             
             Spacer(minLength: 30)
         }
-//            Text(selectedDate,style: .date)
     }
 }
 
 struct ContentView: View {
-//    @Environment(\.managedObjectContext) private var viewContext
-//    @FetchRequest(
-//        entity: ClassIndex.entity(),
-//        sortDescriptors: [NSSortDescriptor(key: "startTime", ascending: false)],
-//        animation: .default
-//    ) var fetchedClassList: FetchedResults<ClassIndex>
     
     var body: some View {
-        HStack {
-            CalendarView()
-//            Text(String(fetchedClassList.count))
-        }
+        CalendarView()
     }
 }
 

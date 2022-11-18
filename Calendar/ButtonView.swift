@@ -17,11 +17,6 @@ class SaveClassIndex: ObservableObject, Identifiable {
     var attend: Int16 = 0
     var absent: Int16 = 0
     var late: Int16 = 0
-    var date: Date
-
-    init(date: Date) {
-        self.date = date
-    }
     
     func newClassSave(viewContext: NSManagedObjectContext) {
         let newClassIndex = ClassIndex(context: viewContext)
@@ -33,7 +28,6 @@ class SaveClassIndex: ObservableObject, Identifiable {
         newClassIndex.attend = attend
         newClassIndex.absent = absent
         newClassIndex.late = late
-        newClassIndex.date = date
         try? viewContext.save()
     }
     
@@ -46,7 +40,6 @@ class SaveClassIndex: ObservableObject, Identifiable {
         classIndex.attend = attend
         classIndex.absent = absent
         classIndex.late = late
-        classIndex.date = date
         try? viewContext.save()
     }
     
@@ -94,7 +87,6 @@ struct ButtonView: View {
                             .resizable()
                             .frame(width: 15, height: 15)
                         Text(self.classIndex.place ?? "")
-                            //.frame(width: 50)
                         Spacer()
                     }
                     Spacer(minLength: 20)

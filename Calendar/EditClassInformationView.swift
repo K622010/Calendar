@@ -34,10 +34,6 @@ struct EditClassInformationView: View {
                 Spacer().frame(height: 10)
                 AttendView(attendCounter: $attendCounter, classColor: $classColor, editMode: editMode, classIndex: $classIndex, saveClassIndex: saveClassIndex)
                 ParameterView(classColor: $classColor, editMode: editMode, classIndex: $classIndex, saveClassIndex: saveClassIndex)
-//                    .onDisappear() {
-//                        ParameterView(classColor: $classColor, editMode: editMode, classIndex: $classIndex).save()
-//                        print("disapper")
-//                    }
             }
             Spacer(minLength: 30)
         }
@@ -46,13 +42,11 @@ struct EditClassInformationView: View {
 
 class CircularProgressBarView: UIViewController {
     var progressView: MBCircularProgressBarView!
-    //@IBOutlet weak var progressValueLabel: UILabel!
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(true)
         progressView.value = 0
         progressView.maxValue = 30
-        //progressValueLabel.text = "\(progressView.value)"
     }
 
     override func viewDidAppear(_ animated: Bool) {
@@ -62,17 +56,6 @@ class CircularProgressBarView: UIViewController {
         }
     }
 }
-
-//struct AttendCircularProgressBarView: UIViewControllerRepresentable {
-////    @Binding var isPresented: Bool
-//
-//    func makeUIViewController(context: Context) -> CircularProgressBarView {
-//        return CircularProgressBarView()
-//    }
-//
-//    func updateUIViewController(_ uiViewController: CircularProgressBarView, context: Context) {
-//    }
-//}
 
 struct AttendCircularProgressBarView: View {
     @Binding var attendCounter: Dictionary<String, Int>
@@ -194,7 +177,6 @@ struct AttendView: View {
     }
     
     func ChangeButtonColor(state: String) {
-//        SwiftUI.Color(UInt(Int(self.classIndex.color ?? "000000", radix: 16) ?? 000000), alpha: 1.0)
         switch state {
         case "Attend":
             ButtonColors["Attend"] = Color(saveClassIndex.color)
@@ -238,9 +220,6 @@ func dateToHour(date: Date) -> String {
 }
 
 func pushAttendButton(stateBefore: String, stateAfter: String, buttonPushFlag: Bool, attendCounter: Dictionary<String, Int>) -> (Bool, Dictionary<String, Int>) {
-//    @Environment(\.managedObjectContext) var viewContext
-//    let classIndex = ClassIndex(context: viewContext)
-//    @Environment(\.presentationMode) var presentation
     let pushStateList: [String] = ["Attend", "Absent", "Late"]
     var attendCounterEdit: Dictionary<String, Int> = attendCounter
     if buttonPushFlag {
@@ -258,12 +237,6 @@ func pushAttendButton(stateBefore: String, stateAfter: String, buttonPushFlag: B
             }
         }
     }
-    
-//    classIndex.attend = Int16(attendCounter["Attend"] ?? 0)
-//    classIndex.absent = Int16(attendCounter["Absent"] ?? 0)
-//    classIndex.late = Int16(attendCounter["Late"] ?? 0)
-//    try? viewContext.save()
-//    presentation.wrappedValue.dismiss()
     
     return (true, attendCounterEdit)
 }
@@ -310,9 +283,7 @@ extension UIColor {
         let resultRed = String(r, radix: 16).leftPadding(toLength: 2, withPad: "0")
         let resultGreen = String(g, radix: 16).leftPadding(toLength: 2, withPad: "0")
         let resultBlue = String(b, radix: 16).leftPadding(toLength: 2, withPad: "0")
-        //let resultAlpha = String(a, radix: 16).leftPadding(toLength: 2, withPad: "0")
         let result = resultRed + resultGreen + resultBlue
-//        let result = String(r, radix: 16).leftPadding(toLength: 2, withPad: "0") + String(g, radix: 16).leftPadding(toLength: 2, withPad: "0") + String(b, radix: 16).leftPadding(toLength: 2, withPad: "0") + String(a, radix: 16).leftPadding(toLength: 2, withPad: "0")
         return result
     }
 }
